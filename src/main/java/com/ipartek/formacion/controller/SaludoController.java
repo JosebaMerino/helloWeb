@@ -29,7 +29,7 @@ public class SaludoController extends HttpServlet {
 		}
 		
 		PrintWriter out = response.getWriter();
-		out.print("<h1>Slaudo Controller </h1>");
+		out.print("<h1>Saludo Controller </h1>");
 		out.print("Kaixo " + nombre);
 		out.flush();
 	}
