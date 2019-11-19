@@ -1,3 +1,4 @@
+<p> ${mensaje} </p>
 <%
 	Boolean recuerdame = (Boolean) request.getAttribute("recuerdame");  
 	String mensaje = (String) request.getAttribute("mensaje");
