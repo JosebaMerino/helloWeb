@@ -139,7 +139,7 @@ input[type="text"]:invalid {
     width: 150px;
     height: 150px;
     background-color: #0099CC;  
-    animation: mymove 0.1s infinite ;
+    animation: mymove 1s infinite ;
 }
 
 code {

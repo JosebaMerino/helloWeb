@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%=titulo %></title>
     <base href="/helloweb/">
-    
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
