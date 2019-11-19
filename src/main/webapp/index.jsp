@@ -120,14 +120,4 @@
     <p>Libero aspernatur velit laudantium atque voluptatem itaque, reprehenderit quos est, adipisci laborum numquam consectetur ullam. Corrupti fuga quasi necessitatibus, esse doloremque architecto cupiditate molestias tempora, fugiat modi obcaecati nesciunt ipsa!</p>
 </section>
 </main>
-
-<footer>
-    Ipartek &cup;
-</footer>
-
-    <!-- JavaScript-->
-    <script src="js/main.js"></script>
-
-</body>
-
-</html>
+<%@include file="includes/pie.jsp" %>
