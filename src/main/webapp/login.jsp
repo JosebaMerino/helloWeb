@@ -1,0 +1,109 @@
+<%
+String mensaje = (String) request.getAttribute("mensaje");
+String nombre = (String) request.getAttribute("nombre");
+String recuerdame = (String) request.getAttribute("recuerdame");
+String idioma = (String) request.getAttribute("idioma");
+
+if(nombre == null) {
+	nombre = "";
+}
+
+if(idioma == null) {
+	idioma = "";
+}
+%>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input {
+            margin-bottom: 1em;
+        }
+        select {
+            margin-bottom: 1em;
+        }
+
+        input[type="text"], input[type="password"], select {
+        	width: 100%;
+            border: 1px solid grey ;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+        	width: 100%;
+            background-color: #2f3e9e;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            border-radius: 4px;
+            border: 0em;
+            color: white;
+            
+            
+        }
+
+        input[type="submit"]:hover {
+            background-color: #202a6e;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            border-radius: 4px;
+            border: 0 ;
+            
+        }
+
+        form {
+        	max-width: 300px;
+            border: 1px solid black;
+            padding: 0.5em;
+            margin: auto;
+            background-color: #B0CEFE; 
+        }
+    </style>
+    <a href="index.jsp"> Volver </a>
+    <h1> Formulario basico de login</h1>
+    <section>
+        <form action="login" method="post">
+        	<h2>Login</h2>
+			        <%
+				if (mensaje != null) {
+					%>
+					<p style="color: red"> <%=mensaje %></p>
+					<%
+				}
+			%>
+            <label for="nombre"> Nombre </label> <br>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario" value="<%= nombre%>">
+            <br>
+
+            <label for="contrasena"> Contraseña </label> <br>
+            <input type="password" name="contrasena" id="contrasena">
+            <br>
+
+            <label for="idioma"> Seleciona tu idioma</label> <br>
+            <select name="idioma" id="idioma">
+                <option value="es" <% out.print(idioma.equals("es") ? "selected": ""); %>>Español</option>
+                <option value="eus"<% out.print(idioma.equals("eus") ? "selected": ""); %>>Euskera</option>
+                <option value="en"<% out.print(idioma.equals("en") ? "selected": ""); %>>Ingles</option>
+            </select>
+            <br>
+
+            <input type="checkbox" name="recuerdame" id="recuerdame" <% out.print(recuerdame == null? "" : "checked"); %>> Recuerdame <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
