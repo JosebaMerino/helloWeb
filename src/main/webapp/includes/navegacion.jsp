@@ -5,11 +5,11 @@
 	    <p> CSS </p>
 	    <a href="ejemplos/css/animaciones.jsp"> Animacion</a>
 	    <br>
-	    <a href="ejemplos/css/especificidad.html"> Especificidad</a>
+	    <a href="ejemplos/css/especificidad.jsp"> Especificidad</a>
 	    <br>
-	    <a href="ejemplos/css/selectoresBasicos.html"> Selectores basicos</a>
+	    <a href="ejemplos/css/selectoresBasicos.jsp"> Selectores basicos</a>
 	    <br>
-	    <a href="ejemplos/css/selectoresAvanzados.html"> Selectores avanzados</a>
+	    <a href="ejemplos/css/selectoresAvanzados.jsp"> Selectores avanzados</a>
 	    <br>
 	</div>
 	<div class="link_section">

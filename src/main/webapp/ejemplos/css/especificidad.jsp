@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"> <!-- Codificacion de caracteres -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que sea responsive -->
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Pestaña</title>
-        <base href="/pruebatecnica/">
-    
-        <!-- Estilos -->
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-<body>
-    <nav>
-        <a href="index.html"> Volver </a>
-        <br>
-        <a href="https://www.aulaclic.es/html/index.htm" target="_blank"> Tutorial que se necesita seguir</a>
-        <a href="https://www.aulaclic.es/html/t_9_1.htm" target="_blank"> CSS</a>
-    </nav>
-    <nav></nav>
+<%
+	String titulo = "Especificidad";
+%>
+
+<%@include file="/includes/cabecera.jsp" %>
+
+<%@include file="/includes/navegacion.jsp" %>
 
     <h1>CSS Básico</h1>
     <h2>Especificidad de CSS</h2>
@@ -51,5 +38,5 @@
             color: lightblue !important; /* es la más importante */
         }
     </style>
-</body>
-</html>
+
+<%@include file="/includes/pie.jsp" %>

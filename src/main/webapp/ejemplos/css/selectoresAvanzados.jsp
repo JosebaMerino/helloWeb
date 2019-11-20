@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<%
+	String titulo = "Selectores avanzados";
+%>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <base href="/pruebatecnica/">
-</head>
+<%@include file="/includes/cabecera.jsp" %>
 
-<body>
+	<%@include file="/includes/navegacion.jsp" %>
     <div class="main">
         <a href="index.html"> Volver </a>
 
@@ -229,6 +224,4 @@
             color: green;
         }
     </style>
-</body>
-
-</html>
+<%@include file="/includes/pie.jsp" %>

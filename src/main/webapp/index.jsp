@@ -1,5 +1,5 @@
 <%
-	String titulo = "index";
+	String titulo = "Inicio";
 %>
 
 <%@include file="includes/cabecera.jsp" %>
@@ -12,7 +12,7 @@
     <div class=" parallax ">
         <div class="fondo-gris">
             <h1>Ipartek HTML5</h1>
-            <h2>Wellcome to HTML</h2>
+            <h2>Welcome to HTML</h2>
         </div>
     </div>
     <%@include file="includes/navegacion.jsp" %>
@@ -93,4 +93,13 @@
     <p>Libero aspernatur velit laudantium atque voluptatem itaque, reprehenderit quos est, adipisci laborum numquam consectetur ullam. Corrupti fuga quasi necessitatibus, esse doloremque architecto cupiditate molestias tempora, fugiat modi obcaecati nesciunt ipsa!</p>
 </section>
 </main>
-<%@include file="includes/pie.jsp" %>
+<footer>
+    Ipartek &cup;
+</footer>
+
+    <!-- JavaScript-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

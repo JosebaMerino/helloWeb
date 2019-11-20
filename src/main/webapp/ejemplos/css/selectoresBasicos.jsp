@@ -1,18 +1,10 @@
-<!DOCTYPE html> <!-- HTML 5 -->
-<html lang="es">
+<%
+	String titulo = "Selectores basicos";
+%>
 
-<head>
-    <meta charset="UTF-8"> <!-- Codificacion de caracteres -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que sea responsive -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pestaña</title>
-    <base href="/pruebatecnica/">
+<%@include file="/includes/cabecera.jsp" %>
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
+	<%@include file="/includes/navegacion.jsp" %>
     <a href="index.html"> Volver </a>
 
     <h2> Tipos de selectores</h2>
@@ -94,6 +86,4 @@
             background-color: black;
         }
     </style>
-</body>
-
-</html>
+<%@include file="/includes/pie.jsp" %>

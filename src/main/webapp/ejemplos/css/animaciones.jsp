@@ -1,10 +1,9 @@
 <%
-	String titulo = "index";
+	String titulo = "Animaciones";
 %>
 
 <%@include file="/includes/cabecera.jsp" %>
 
-<body>
 	<%@include file="/includes/navegacion.jsp" %>
    
     <h2>Animacion</h2>
@@ -13,9 +12,4 @@
     <div class="box-animacion"> Hola </div>
 
 
-    <!-- JavaScript-->
-    <script src="js/main.js"></script>
-
-</body>
-
-</html>
+<%@include file="/includes/pie.jsp" %>
