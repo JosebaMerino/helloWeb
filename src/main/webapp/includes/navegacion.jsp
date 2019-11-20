@@ -26,6 +26,13 @@
 	</div>
 	<div class="link_section">
 	    <p> JS </p>
-	    <a href="ejemplos/js/game.html"> Juego de Arkanoid</a>
+	    <a href="ejemplos/js/game.jsp"> Juego de Arkanoid</a>
+	</div>
+	<div class="link_section">
+	<p> JSP</p>
+		<a href="ejemplos/jsp/login.jsp"> Login </a>
+		<br />
+		<a href="ejemplos/jsp/calculadora.jsp"> Calculadora</a>
+		<br />
 	</div>
 </nav>

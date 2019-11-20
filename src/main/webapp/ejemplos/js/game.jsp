@@ -1,7 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script type='text/javascript' id='lt_ws' src='http://localhost:5678/socket.io/lighttable/ws.js'></script>
+<%
+	String titulo = "Arkanoid";
+%>
+
+<%@include file="/includes/cabecera.jsp" %>
+
+	<%@include file="/includes/navegacion.jsp" %>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,5 +24,4 @@
     </p>
 
     <script src="js/game.js"></script>
-</body>
-</html>
+<%@include file="/includes/pie.jsp" %>
