@@ -17,6 +17,8 @@
     </div>
     <%@include file="includes/navegacion.jsp" %>
     <main>
+    
+    <i class="fas fa-eye"></i>
 
     <section>
     <h3>Voluntario <span id="nombre">X</span></h3>

@@ -3,6 +3,7 @@
 	<a href="index.jsp"> Home </a>
 	<div class="link_section">
 	    <p> CSS </p>
+	    <div>
 	    <a href="ejemplos/css/animaciones.jsp"> Animacion</a>
 	    <br>
 	    <a href="ejemplos/css/especificidad.jsp"> Especificidad</a>
@@ -11,6 +12,8 @@
 	    <br>
 	    <a href="ejemplos/css/selectoresAvanzados.jsp"> Selectores avanzados</a>
 	    <br>
+	    <a href="ejemplos/css/flexbox.jsp"> Flexbox </a>
+	    </div>
 	</div>
 	<div class="link_section">
 	    <p> HTML </p>

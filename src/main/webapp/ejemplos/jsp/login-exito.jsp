@@ -1,18 +1,29 @@
-<p> ${mensaje} </p>
 <%
-	Boolean recuerdame = (Boolean) request.getAttribute("recuerdame");  
-	String mensaje = (String) request.getAttribute("mensaje");
+	String titulo = "Login exito";
 %>
 
-<p> <%=mensaje %></p>
+<%@include file="/includes/cabecera.jsp" %>
 
-
-<% 
-	if(recuerdame) {
-%>
-	<p> Se te recordará cuando vuelvas  </p>
-<%  } else { %>
-	<p> No se te recordará cuando vuelvas</p>
-<% 	} %>
-
-<a href="index.jsp"> Volver al Index</a>
+	<%@include file="/includes/navegacion.jsp" %>
+	<h1> Login realizado con exito </h1>
+	<main>
+		<section>
+			<!-- <p> ${mensaje} </p>  -->
+			<%
+				Boolean recuerdame = (Boolean) request.getAttribute("recuerdame");  
+				String mensaje = (String) request.getAttribute("mensaje");
+			%>
+			
+			<p> <%=mensaje %></p>
+			
+			
+			<% 
+				if(recuerdame) {
+			%>
+				<p> Se te recordará cuando vuelvas  </p>
+			<%  } else { %>
+				<p> No se te recordará cuando vuelvas</p>
+			<% 	} %>
+		</section>
+	</main>
+<%@include file="/includes/pie.jsp" %>

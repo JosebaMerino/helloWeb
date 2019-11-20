@@ -38,6 +38,7 @@ public class LoginControlador extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String vista = "";
+		String base = "/ejemplos/jsp/";
 
 		// 1. recibir parametros
 
@@ -84,7 +85,7 @@ public class LoginControlador extends HttpServlet {
 		}
 
 		// 3. Ir a JSP
-		request.getRequestDispatcher(vista).forward(request, response);
+		request.getRequestDispatcher(base + vista).forward(request, response);
 
 	}
 

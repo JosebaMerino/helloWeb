@@ -13,17 +13,12 @@ if(idioma == null) {
 }
 %>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styles.css">
-    
-    <title>Document</title>
-</head>
-<body>
+<%
+	String titulo = "Login";
+%>
+
+<%@include file="/includes/cabecera.jsp" %>
+	<%@include file="/includes/navegacion.jsp" %>
     <style>
         input {
             margin-bottom: 1em;
@@ -42,28 +37,7 @@ if(idioma == null) {
             box-sizing: border-box;
         }
 
-        input[type="submit"] {
-        	width: 100%;
-            background-color: #2f3e9e;
-            display: inline-block;
-            box-sizing: border-box;
-            padding: 12px 20px;
-            border-radius: 4px;
-            border: 0em;
-            color: white;
-            
-            
-        }
 
-        input[type="submit"]:hover {
-            background-color: #202a6e;
-            display: inline-block;
-            box-sizing: border-box;
-            padding: 12px 20px;
-            border-radius: 4px;
-            border: 0 ;
-            
-        }
 
         form {
         	max-width: 300px;
@@ -105,5 +79,4 @@ if(idioma == null) {
             <input type="submit" value="Enviar">
         </form>
     </section>
-</body>
-</html>
+<%@include file="/includes/pie.jsp" %>
