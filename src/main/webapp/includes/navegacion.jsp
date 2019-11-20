@@ -14,14 +14,15 @@
 	</div>
 	<div class="link_section">
 	    <p> HTML </p>
-	    <a href="ejemplos/html/etiquetas-basicas.html"> Etiquetas basicas de html</a>
+	    <a href="ejemplos/html/etiquetas-basicas.jsp"> Etiquetas basicas de html</a>
 	    <br>
-	    <a href="ejemplos/html/box-model.html"> Visualización</a>
+	    <a href="ejemplos/html/box-model.jsp"> Visualización</a>
 	    <br>
-	    <a href="ejemplos/html/posicionamiento.html"> Posicionamiento</a>
+	    <a href="ejemplos/html/posicionamiento.jsp"> Posicionamiento</a>
 	    <br>
-	    <a href="ejemplos/html/formulario.html"> Formularios</a>
-	    <a href="ejemplos/html/login.html"> Login </a>
+	    <a href="ejemplos/html/formulario.jsp"> Formularios</a>
+	    <br>
+	    <a href="ejemplos/html/login.jsp"> Login </a>
 	</div>
 	<div class="link_section">
 	    <p> JS </p>

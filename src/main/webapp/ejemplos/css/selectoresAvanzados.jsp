@@ -6,7 +6,6 @@
 
 	<%@include file="/includes/navegacion.jsp" %>
     <div class="main">
-        <a href="index.html"> Volver </a>
 
         <p hidden>
             <pre hidden>

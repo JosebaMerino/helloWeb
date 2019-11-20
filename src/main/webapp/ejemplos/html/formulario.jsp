@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<%
+	String titulo = "Formulario";
+%>
 
-    <base href="/pruebatecnica/">
+<%@include file="/includes/cabecera.jsp" %>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
-</head>
-<body>
+<%@include file="/includes/navegacion.jsp" %>
 
     <style>
         body {
@@ -133,5 +127,4 @@
             <input type="submit" value="Enviar">
         </form>
     </section>
-</body>
-</html> 
+<%@include file="/includes/pie.jsp" %>

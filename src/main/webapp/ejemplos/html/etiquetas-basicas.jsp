@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" id="root">
+<%
+	String titulo = "Etiquetas Basicas";
+%>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Etiquetas basicas</title>
-    <base href="/pruebatecnica/">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+<%@include file="/includes/cabecera.jsp" %>
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
+	<%@include file="/includes/navegacion.jsp" %>
     <style>
         dt {
             font-weight: 800;
@@ -46,7 +38,7 @@
     </style>
     <div class="main">
         <span class="flotante">
-            <a href="ejemplos/html/etiquetas-basicas.html#titulo" style="margin: auto;"> Arribaaaa</a>
+            <a href="ejemplos/html/etiquetas-basicas.jsp#titulo" style="margin: auto;"> Arribaaaa</a>
         </span>
         <h1 id="titulo"> Etiquetas basicas de HTML </h1>
         <section>
@@ -217,6 +209,4 @@ Buenas ,
         </section>
     </div>
     <script src="ejemplos/html/etiquetas-basicas.js"></script>
-</body>
-
-</html>
+<%@include file="/includes/pie.jsp" %>

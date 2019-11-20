@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<%
+	String titulo = "Animaciones";
+%>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Box model</title>
-    <base href="/pruebatecnica/ ">
-
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
+<%@include file="/includes/cabecera.jsp" %>
+<%@include file="/includes/navegacion.jsp" %>
     <style>
         span {
             border: 3px dotted red;
@@ -61,8 +53,6 @@
 
         
     </style>
-    <a href="index.html"> Volver </a>
-
     <h1> Visualizacion </h1>
     <h2> Box model </h2>
     <p class="prueba"> Toda etiqueta de HTML tiene un comportamiento de caja</p>
@@ -133,6 +123,4 @@
         <div class="box" style="z-index: 2; position: relative; left: 50px; top: -20px; background-color: red;">2</div>
         <div class="box" style="z-index: 3; position: relative;"> 3</div>
     </section>
-</body>
-
-</html>
+<%@include file="/includes/pie.jsp" %>

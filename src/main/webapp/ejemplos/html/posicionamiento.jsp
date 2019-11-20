@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <base href="/pruebatecnica/">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <a href="index.html"> Volver </a>
+<%
+	String titulo = "Posicionamiento";
+%>
+
+<%@include file="/includes/cabecera.jsp" %>
+
+	<%@include file="/includes/navegacion.jsp" %>
     <h1 id="inicio">Posicionamiento</h1>
     <p>Se suele usar con top y left</p>
     <section>
@@ -117,13 +112,4 @@
             </div>
         </div>
     </section>
-</body>
-</html>
-
-footer fijo.
-
-menu. Sticky
-
-absoluto, mover un item dentro de una imagen (un corazon)
-
-fixed boton de bolber arriba (abajo, derecha)
+<%@include file="/includes/pie.jsp" %>

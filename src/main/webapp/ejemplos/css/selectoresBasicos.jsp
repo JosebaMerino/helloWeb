@@ -5,7 +5,6 @@
 <%@include file="/includes/cabecera.jsp" %>
 
 	<%@include file="/includes/navegacion.jsp" %>
-    <a href="index.html"> Volver </a>
 
     <h2> Tipos de selectores</h2>
 
