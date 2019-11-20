@@ -6,7 +6,6 @@
 
 	<%@include file="/includes/navegacion.jsp" %>
 	<h1> Login realizado con exito </h1>
-	<main>
 		<section>
 			<!-- <p> ${mensaje} </p>  -->
 			<%
@@ -25,5 +24,4 @@
 				<p> No se te recordará cuando vuelvas</p>
 			<% 	} %>
 		</section>
-	</main>
 <%@include file="/includes/pie.jsp" %>

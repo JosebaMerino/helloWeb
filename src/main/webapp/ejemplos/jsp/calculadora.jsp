@@ -6,7 +6,6 @@
 
 	<%@include file="/includes/navegacion.jsp" %>
 	
-<main>
 <h1>Calculadora</h1>
 	<section>
 		<form action="sumar" method="post">
@@ -33,6 +32,5 @@
 			
 		</form>
 	</section>
-</main>
 
 <%@include file="/includes/pie.jsp" %>

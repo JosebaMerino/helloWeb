@@ -7,9 +7,11 @@
     <title>HelloWeb | <%=titulo %></title>
     <base href="/helloweb/">
     
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css?time=<%= System.currentTimeMillis()%>">
 </head>
 <body>
+	<main>

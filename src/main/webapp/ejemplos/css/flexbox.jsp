@@ -8,7 +8,6 @@
    
 <h1>Flexbox</h1>
 
-<main>
 	<section>
 
 		<ul>
@@ -56,6 +55,5 @@
 	</div>
 	
 	<p>Poner dibujo de main axis y cross axis del campus</p>
-</main>
 
 <%@include file="/includes/pie.jsp" %>

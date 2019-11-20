@@ -36,7 +36,6 @@
             background-color: grey;
         }
     </style>
-    <div class="main">
         <span class="flotante">
             <a href="ejemplos/html/etiquetas-basicas.jsp#titulo" style="margin: auto;"> Arribaaaa</a>
         </span>
@@ -207,6 +206,5 @@ Buenas ,
             <h2> Texto tachado </h2>
             <p> Me han dicho que algo de este texto debe quedarse <span class="tachado">tachado</span> </p>
         </section>
-    </div>
     <script src="ejemplos/html/etiquetas-basicas.js"></script>
 <%@include file="/includes/pie.jsp" %>

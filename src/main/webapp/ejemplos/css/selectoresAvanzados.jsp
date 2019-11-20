@@ -5,7 +5,6 @@
 <%@include file="/includes/cabecera.jsp" %>
 
 	<%@include file="/includes/navegacion.jsp" %>
-    <div class="main">
 
         <p hidden>
             <pre hidden>
@@ -124,13 +123,7 @@
                 <p>Maxime, explicabo officia?</p>
             </div>
         </section>
-    </div>
     <style>
-        .main {
-            margin: 20px;
-            padding: 20px;
-            background-color: rgba(128, 128, 128, 0.144);
-        }
 
         /* Selectores de hijos */
         #selectoresHijos {
