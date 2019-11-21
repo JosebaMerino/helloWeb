@@ -4,11 +4,14 @@
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: blueviolet;
+	padding: 20px;
+	
+	background-color: indigo;
 }
 
 footer {
 	max-width: 1024px;
+	margin: auto;
 }
 
 .nav-wrapper {
@@ -24,7 +27,7 @@ nav {
 }
 
 main {
-	margin-bottom: 50px;
 	max-width: 1024px;
 	margin: auto;
+	margin-bottom: 50px;
 }
