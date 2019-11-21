@@ -1,0 +1,30 @@
+/* Layouts
+************************************************************************************/
+.footer-wrapper {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: blueviolet;
+}
+
+footer {
+	max-width: 1024px;
+}
+
+.nav-wrapper {
+	background-color: #0099CC;
+	position: sticky;
+	top: 0;
+	padding: 20px;
+}
+
+nav {
+	max-width: 1024px;
+	margin: auto;
+}
+
+main {
+	margin-bottom: 50px;
+	max-width: 1024px;
+	margin: auto;
+}

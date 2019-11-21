@@ -1,0 +1,78 @@
+/* Clases
+*********************************************************************************/
+.parallax {
+	background-image: url(/helloweb/images/office.jpg);
+	/* Set a specific height */
+	height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax h1 {
+	margin-top: 0;
+	padding-top: 4em;
+}
+
+.parallax h2 {
+	padding-top: 0.5em;
+}
+
+.box-animacion {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: #0099CC;
+	animation: mymove 1s infinite;
+}
+
+.link_section {
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid black;
+	position: relative;
+	height: 3em;
+	width: 5em;
+}
+
+.link_section:hover {
+	overflow: visible;
+}
+
+.link_section div {
+	background-color: white;
+	border: 5px solid #0099CC;
+	border-top: 0;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	top: 4em;
+	display: none;
+	height: auto;
+}
+
+.link_section:hover div {
+	display: inline-block;
+	position: absolute;
+	top: 2.95em;
+	width: auto;
+	width: 200px
+}
+
+nav .home {
+	font-size: 2em;
+}
+
+.box {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid teal;
+	background-color: royalblue;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 5em;
+	text-align: center;
+}
