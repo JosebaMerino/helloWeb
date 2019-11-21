@@ -21,7 +21,12 @@
 
     <section>
     <h3>Voluntario <span id="nombre">X</span></h3>
-    <button onclick="buscarVoluntario()">Â¿Quien lee?</button>
+    <button onclick="buscarVoluntario()">¿Quién lee?</button>
+</section>
+
+<section>
+	<h2> Colores</h2>
+	<a href="https://www.0to255.com/" target="_blank"> Colores</a>
 </section>
 
 <section>
@@ -67,7 +72,7 @@
                 <td> Erlantz </td>
             </tr>
             <tr>
-                <td>RaÃºl</td>
+                <td>Raúl</td>
                 <td>F</td>
             </tr>
             <tr>

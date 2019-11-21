@@ -1,7 +1,7 @@
 <!--  Navegación -->
 <div class="nav-wrapper">
 	<nav class="topnav" id="myTopnav">
-		<a href="index.jsp" class="no-decoration">
+		<a href="index.jsp" class="home no-decoration">
 			<i class="fas fa-home home"></i>
 		</a>
 		<div class="dropdown">
