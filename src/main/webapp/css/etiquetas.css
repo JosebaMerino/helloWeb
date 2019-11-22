@@ -68,7 +68,8 @@ code {
 section {
 	border-radius: 5px;
 	border: 1px solid black;
-	background-color: palegoldenrod;
+	/*background-color: palegoldenrod;*/
+	background-color: #fbfeff;	
 	margin-bottom: 20px;
 	padding: 5px;
 }

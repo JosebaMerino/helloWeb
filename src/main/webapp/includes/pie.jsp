@@ -10,6 +10,9 @@
 	<script src="js/main.js"></script>
     <!-- JavaScript-->
 
+            <div class="esquina">
+                <span> <a href="<%= (request.getRequestURL()).toString() %>#inicio">&uarr;</a> </span>
+            </div>
 </body>
 
 </html>

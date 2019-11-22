@@ -93,6 +93,29 @@ a.no-decoration:visited {
 	color: black;
 }
 
+/* Boton
+**************************************************************************/
+.esquina {
+    position: fixed;
+    display: inline-block;
+
+    width: 4em;
+    height: 4em;
+
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(89, 89, 133);
+
+    right: 0.5em;
+    bottom: 0.5em;
+
+    text-align: center;
+}
+.esquina span {
+    font-size: 3em;
+}
+
+
 a.no-decoration:hover {
 	color: #1C1C1C;
 }

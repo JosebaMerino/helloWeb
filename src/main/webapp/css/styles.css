@@ -15,8 +15,8 @@ Orden de los componentes de un css
     3. TODAS etiquetas estilos generales - normalizar
     4. layouts -> Las secciones de las paginas, footer, articles
     5. clases
-    6. ids (cosas más especificas) => custom.css
-    7. font awesome
+    6. ids (cosas mÃ¡s especificas) => custom.css
+    7. @media querys
 
 */
 
@@ -28,6 +28,8 @@ Orden de los componentes de un css
 @import url("layouts.css");
 @import url("clases.css");
 @import url("custom.css");
+@import url("media.css");
+
 
 @import url("impresora.css") print;
 /*
