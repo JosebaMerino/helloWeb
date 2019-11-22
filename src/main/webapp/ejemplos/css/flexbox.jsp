@@ -17,6 +17,8 @@
 		</ul>
 		<p> Flex es una nueva forma de <code>display</code> de css3 totalmente nueva, para que las cajas no sean inline o block. Se comportaran de una nueva forma mucho mas flexible </p>
 		<p> Sirve para distribuir los elementos contenidos (hijos) en una etiqueta (contenedor) con <code> display: flex</code> </p>
+	
+	<img src="images/flex-axes.png" alt="" height="500px"/>
 	</section>
 	
 	<style>
@@ -54,6 +56,4 @@
 		<div> hijo6</div>
 	</div>
 	
-	<p>Poner dibujo de main axis y cross axis del campus</p>
-
 <%@include file="/includes/pie.jsp" %>

@@ -11,7 +11,11 @@
     <!-- JavaScript-->
 
             <div class="esquina">
-                <span> <a href="<%= (request.getRequestURL()).toString() %>#inicio">&uarr;</a> </span>
+            
+                <span> <a href="<%= (request.getRequestURL()).toString() %>#inicio" class="no-decoration">
+                <i class="fas fa-arrow-up"></i>
+                </a> 
+                </span>
             </div>
 </body>
 

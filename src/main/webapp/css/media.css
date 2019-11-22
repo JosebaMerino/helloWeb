@@ -5,7 +5,7 @@
 /* movil */
 @media screen and (max-width: 425px) {
 	.esquina {
-		display: inline;
+		display: flex;
 	}
 }
 	

@@ -7,6 +7,7 @@
 <%@include file="/includes/navegacion.jsp" %>
 
     <h1>CSS Básico</h1>
+    <section>
     <h2>Especificidad de CSS</h2>
     <h3>Inspeccionar con las herramientas de desarrollador para ver los estilos de los parrafos</h3>
     <div>
@@ -18,6 +19,7 @@
         <p>Enim dolore repudiandae dolorem reprehenderit incidunt harum sed dignissimos maxime quasi cupiditate culpa, saepe, ipsum voluptate consequuntur, sequi tenetur natus id quibusdam repellat! Facere libero non ea distinctio repudiandae debitis.</p>
         <p>Maxime minima natus molestias dolorum iusto praesentium, repudiandae velit reprehenderit, cumque earum dignissimos. Reiciendis dolorum explicabo, libero adipisci veniam sed soluta perspiciatis? Mollitia porro dolore aut unde. Perspiciatis, animi accusantium?</p>
     </div>
+    </section>
     <style>
         /*
         Tambien se pueden definir estilos dentro del propio HTML
