@@ -64,7 +64,10 @@ if(idioma == null) {
             <br>
 
             <label for="contrasena"> Contraseña </label> <br>
+            <div class="password-container">
             <input type="password" name="contrasena" id="contrasena">
+            <button id="mostrarBtn" onclick="mostrarContrasena(event)"><i class="fas fa-eye"></i></button>
+            </div>
             <br>
 
             <label for="idioma"> Seleciona tu idioma</label> <br>
@@ -79,4 +82,21 @@ if(idioma == null) {
             <input type="submit" value="Enviar">
         </form>
     </section>
+    
+    <script>
+    function mostrarContrasena(event) {
+    	console.log("Estoy aqui");
+		var contrasenaEl = document.getElementById("contrasena");
+		var contrasenaBtn = document.getElementById("mostrarBtn");
+		if("password" == contrasenaEl.type) {
+			contrasenaEl.type = "text";
+			contrasenaBtn.innerHTML = '<i class="fas fa-eye-slash"></i>';
+		} else {
+			contrasenaEl.type = "password";
+			contrasenaBtn.innerHTML = '<i class="fas fa-eye"></i>';
+		}
+		event.preventDefault();
+    }
+    </script>
+    
 <%@include file="/includes/pie.jsp" %>

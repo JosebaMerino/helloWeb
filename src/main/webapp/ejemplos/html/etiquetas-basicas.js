@@ -1,7 +1,6 @@
 function deleteHTMLroot(){
     console.trace();
-    var HTMLel = document.getElementById('root');
-    HTMLel.parentNode.removeChild(HTMLel);
+    document.documentElement.remove()
     alert('Acabas de borrar la página');
     return;
 }

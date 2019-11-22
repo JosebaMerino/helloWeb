@@ -93,6 +93,32 @@ a.no-decoration:visited {
 	color: black;
 }
 
+
+
+.password-container {
+	display: flex;
+}
+
+#contrasena{
+	border-radius: 5px 0px 0px 5px;
+}
+
+.password-container button {
+	box-sizing: border-box;
+	margin: 8px 0;
+	border: 1px solid grey;
+	border-left: 0;
+	border-radius: 0px 5px 5px 0px;
+	padding: 0 10px 0 10px;
+	background-color: #f0f0f0;
+	color: grey;
+}
+.password-container button:hover {
+	background-color: #d6d6d6;
+}
+
+x
+
 /* Boton
 **************************************************************************/
 .esquina {

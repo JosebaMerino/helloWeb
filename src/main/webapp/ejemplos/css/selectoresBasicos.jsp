@@ -6,40 +6,45 @@
 
 	<%@include file="/includes/navegacion.jsp" %>
 
-    <h2> Tipos de selectores</h2>
+	<h1>Selectores basicos</h1>
+	<section>
+    	<h2> Tipos de selectores</h2>
 
-    <p>
-        En este vÃ­deo puedes ver los tipos de selectores, identificadores, clases y pseudoclases:Videotutorial
-    </p>
-    <iframe width="100%" src="https://www.youtube.com/embed/ARaU6uGOa_k" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <!-- JavaScript-->
-    <script src="js/main.js"></script>
-
-    <h2> Selector decendente A B</h2>
-    <div class="container">
-        <p><span>Hola </span>Vamos a dar estilo solo a estos parrafos que estan dentro de un <code>div .container</code>
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, cupiditate praesentium! Molestias
-            assumenda accusamus quos blanditiis dolorum labore. Odit adipisci cum voluptatibus enim sapiente, recusandae
-            suscipit vel laborum ad eius!</p>
-        <p class="especial">Lorem <span> ipsum dolor</span> sit amet consectetur adipisicing elit. Asperiores eaque
-            obcaecati explicabo consequatur vero rerum libero quaerat accusamus nemo, exercitationem cupiditate
-            reiciendis aut tempora, deleniti inventore laudantium tempore enim labore.</p>
-    </div>
-
-    <h2> Selector de clase</h2>
-    <div>
-        <p class="color-rojo"> Hola soy rojo porque tengo la clase color-rojo</p>
-        <p> Yo no soy rojo pero mi amigo <span class="color-rojo">SI</span></p>
-        <p> Pues mi <span class="color-verde"> span</span> deberia ser verde</p>
-        <p class="color-verde"> Yo aunque sea de clase-verde yo no soy verde porque no estoy dentro de un parrafo</p>
-    </div>
-    <h2> Selector de ID</h2>
-    <div>
-        <p id="id1"> Hola tengo id id1</p>
-        <p> Yo tengo un <span id="id2">span</span> con id2</p>
-    </div>
+    	<p>
+	        En este vídeo puedes ver los tipos de selectores, identificadores, clases y pseudoclases:Videotutorial
+	    </p>
+	    <iframe src="https://www.youtube.com/embed/ARaU6uGOa_k" frameborder="0"
+	        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+    <section>
+    	<h2> Selector decendente A B</h2>
+    	<div class="container">
+	        <p><span>Hola </span>Vamos a dar estilo solo a estos parrafos que estan dentro de un <code>div .container</code>
+	        </p>
+	        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, cupiditate praesentium! Molestias
+	            assumenda accusamus quos blanditiis dolorum labore. Odit adipisci cum voluptatibus enim sapiente, recusandae
+	            suscipit vel laborum ad eius!</p>
+	        <p class="especial">Lorem <span> ipsum dolor</span> sit amet consectetur adipisicing elit. Asperiores eaque
+	            obcaecati explicabo consequatur vero rerum libero quaerat accusamus nemo, exercitationem cupiditate
+	            reiciendis aut tempora, deleniti inventore laudantium tempore enim labore.</p>
+    	</div>
+	</section>
+    <section>
+	    <h2> Selector de clase</h2>
+	    <div>
+	        <p class="color-rojo"> Hola soy rojo porque tengo la clase color-rojo</p>
+	        <p> Yo no soy rojo pero mi amigo <span class="color-rojo">SI</span></p>
+	        <p> Pues mi <span class="color-verde"> span</span> deberia ser verde</p>
+	        <p class="color-verde"> Yo aunque sea de clase-verde yo no soy verde porque no estoy dentro de un parrafo</p>
+	    </div>
+    </section>
+    <section>
+	    <h2> Selector de ID</h2>
+	    <div>
+	        <p id="id1"> Hola tengo id id1</p>
+	        <p> Yo tengo un <span id="id2">span</span> con id2</p>
+	    </div>
+    </section>
     <style>
         /* Selector descendente
         */
