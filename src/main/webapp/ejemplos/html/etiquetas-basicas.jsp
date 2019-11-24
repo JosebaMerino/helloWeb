@@ -55,7 +55,7 @@
         </p>
     </section>
     <section>
-        <h2> BotÃ³n que hace cosas</h2>
+        <h2> Botón que hace cosas</h2>
         <div>
             <button onclick="deleteHTMLroot()"> Calcular PI </button>
         </div>

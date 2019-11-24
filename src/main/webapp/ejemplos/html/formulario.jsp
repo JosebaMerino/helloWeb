@@ -7,11 +7,6 @@
 <%@include file="/includes/navegacion.jsp" %>
 
     <style>
-        body {
-            max-width: 1024px;
-            margin: auto;
-        }
-
         form {
             border: 1px solid grey;
             padding: 20px;

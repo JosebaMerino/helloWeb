@@ -8,7 +8,6 @@
    
     <h2>Animacion</h2>
 
-    <a href="index.html"> Volver </a>
     <div class="box-animacion"> Hola </div>
 
 

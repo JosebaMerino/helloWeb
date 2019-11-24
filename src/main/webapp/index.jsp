@@ -46,7 +46,12 @@
     <section>
         <h2> Tabla con los alumn@s que forman la clase </h2>
     <div>
-        <table id="Tabla">
+        <table id="Tabla" class="tabla display responsive nowrap" width="100%">
+        <thead>
+        	<th>Izquierda</th>
+        	<th>Derecha</th>
+        </thead>
+        <tbody>
             <tr>
                 <td> Aitor </td>
                 <td>Iker </td>
@@ -56,7 +61,7 @@
                 <td> </td>
             </tr>
             <tr>
-                <td> IÃ±igo </td>
+                <td> Iñigo </td>
                 <td> Kiryl</td>
             </tr>
             <tr>
@@ -79,11 +84,17 @@
                 <td>Joseba</td>
                 <td>Mikel</td>
             </tr>
-            <tr>
-                <td onclick="alert('hola')" colspan="2" style="border: 20px solid black;"> Ander</td>
-            </tr>
+            </tbody>
+            <tfoot>
+            	<tr>
+            		<th colspan="2"> Ander </th>
+            	</tr>
+            </tfoot>
         </table>
     </div>
+                <tr>
+                <td onclick="alert('hola')" colspan="2" style="border: 20px solid black;"> Ander</td>
+            </tr>
 </section>
 <section>
     <h2>Lorem, ipsum.</h2>

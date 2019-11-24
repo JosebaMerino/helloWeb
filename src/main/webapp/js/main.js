@@ -56,17 +56,9 @@ function buscarVoluntario() {
     var numeroAleatorio = Math.floor(Math.random() * arrayAlumnos.length);
     //console.log(numeroAleatorio);
 
-    //nombreEl.innerHTML = arrayAlumnos[numeroAleatorio];
+    nombreEl.innerHTML = arrayAlumnos[numeroAleatorio];
     var tablaEl = document.getElementById('Tabla');
-    console.log(tablaEl.rows);
 
-
-    var tablaArray = tablaEl.rows;
-    var tableElements = [];
-
-   /*for(var i = 0, row; row = table.rows[i]; i++) {
-
-    }*/
     
 }
 
@@ -79,3 +71,52 @@ function myFunction() {
 	    x.className = "topnav";
 	  }
 	}
+
+
+// Nuestro script para seleccionar la tabla y ejecutar el plugin
+$(document).ready(function() { // Esperar que este todo el DOM cargado y listo.
+	// $('#example') == document.getElementById('example');
+	$('.tabla').DataTable({
+		paging: false,
+		ordering: false,
+		responsive: true,
+		select : {
+			style: 'os',
+			items: 'cell'
+		},
+		columnDefs: [
+			{
+				targets: [0,1],
+				className: 'dt-body-center'
+			}
+		],
+		language: {
+		    "sProcessing":     "Procesando...",
+            "sLengthMenu":     "Mostrar _MENU_ registros",
+            "sZeroRecords":    "No se encontraron resultados",
+            "sEmptyTable":     "Ningún dato disponible en esta tabla =(",
+            "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+            "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+            "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+            "sInfoPostFix":    "",
+            "sSearch":         "Buscar:",
+            "sUrl":            "",
+            "sInfoThousands":  ",",
+            "sLoadingRecords": "Cargando...",
+            "oPaginate": {
+                "sFirst":    "Primero",
+                "sLast":     "Último",
+                "sNext":     "Siguiente",
+                "sPrevious": "Anterior"
+            },
+            "oAria": {
+                "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+                "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+            },
+            "buttons": {
+                "copy": "Copiar",
+                "colvis": "Visibilidad"
+            }
+		}
+	})
+} );

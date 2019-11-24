@@ -50,7 +50,6 @@
             margin: 20px;
         }
     </style>
-    <a href="index.html"> Volver </a>
     <h1> Formulario basico de login</h1>
     <section>
         <form action="">

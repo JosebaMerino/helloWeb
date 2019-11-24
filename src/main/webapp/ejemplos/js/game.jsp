@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="css/game.css">
 </head>
 <body>
-    <a href="index.html"> Volver </a>
-    <br>
     <a href="https://developer.mozilla.org/es/docs/Games/Workflows/Famoso_juego_2D_usando_JavaScript_puro">Desarrollo del juego</a>
     <a href="https://developer.mozilla.org/es/docs/Games/Workflows/Famoso_juego_2D_usando_JavaScript_puro/Construye_grupo_bloques"> Aqui me he quedado</a>
     <h1> Arkanoid </h1>

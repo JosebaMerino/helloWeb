@@ -58,7 +58,7 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="ejemplos/howtos/top-menu-responsive.jsp"> Login </a>
+				<a href="ejemplos/howtos/top-menu-responsive.jsp"> Topnav responsive </a>
 				<br />
 			</div>
 		</div>

@@ -28,21 +28,8 @@ table {
 	margin: auto;
 }
 
-td {
-	width: 50%;
-	border: 1px solid #000; /* shorthand */
-	/*
-    border-width: 1px;
-    border-color: #000;
-    border-style: solid;
-    */
-	text-align: center;
-	text-transform: capitalize;
-}
 
-td:hover {
-	background-color: pink;
-}
+
 
 input[type="text"] {
 	padding: 2px 0 2px 5px;
@@ -69,7 +56,7 @@ section {
 	border-radius: 5px;
 	border: 1px solid black;
 	/*background-color: palegoldenrod;*/
-	background-color: #e8e6ff;	
+	background-color: #e4f8ff;	
 	margin-bottom: 20px;
 	padding: 5px;
 }
@@ -133,4 +120,8 @@ ol li {
 p {
 	
 	margin-bottom: 10px;
+}
+
+a {
+	color: #ebb152;
 }

@@ -117,13 +117,11 @@ a.no-decoration:visited {
 	background-color: #d6d6d6;
 }
 
-x
-
-/* Boton
+/* Botón
 **************************************************************************/
 .esquina {
     position: fixed;
-    display: flex;
+    display: none;
 
 
 	/*flex*/
@@ -142,10 +140,6 @@ x
     bottom: 0.5em;
 
     text-align: center;
-}
-
-.esquina:hover {
-	
 }
 
 .esquina a{

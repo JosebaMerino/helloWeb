@@ -6,7 +6,7 @@
 
 <%@include file="/includes/navegacion.jsp" %>
 
-    <h1>CSS BÃ¡sico</h1>
+    <h1>CSS Básico</h1>
     <section>
     <h2>Especificidad de CSS</h2>
     <h3>Inspeccionar con las herramientas de desarrollador para ver los estilos de los parrafos</h3>

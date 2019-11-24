@@ -37,7 +37,7 @@
 			
 			$(document).ready(function() { // Esperar que este todo el DOM cargado y listo.
     			// $('#example') == document.getElementById('example');
-				$('.tabla').DataTable({
+				$('.tablaDatos').DataTable({
 					responsive: true,
 					language: {
 					    "sProcessing":     "Procesando...",
@@ -71,7 +71,7 @@
 			} );
 			
 		</script>
-    	<table class="tabla display responsive nowrap" width=100%>
+    	<table class="tablaDatos display responsive nowrap" width=100%>
         <thead>
             <tr>
                 <th>Nombre</th>
