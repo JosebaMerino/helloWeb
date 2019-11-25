@@ -62,7 +62,7 @@
 				<br />
 			</div>
 		</div>
-		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
 		
 	</nav>
 </div>
