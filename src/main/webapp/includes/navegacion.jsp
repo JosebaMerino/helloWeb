@@ -1,71 +1,76 @@
-<!--  Navegación -->
-<div class="nav-wrapper">
-	<nav class="topnav" id="myTopnav">
-		<a href="index.jsp" class="home no-decoration">
-			<i class="fas fa-home home"></i>
-		</a>
-		<div class="dropdown">
-		    <button class="dropbtn"> CSS
-		    	<i class="fa fa-caret-down"></i>
-		    </button>
-		    <div class="dropdown-content">
-			    <a href="ejemplos/css/animaciones.jsp"> Animacion</a>
-			    <a href="ejemplos/css/especificidad.jsp"> Especificidad</a>
-			    <a href="ejemplos/css/selectoresBasicos.jsp"> Selectores basicos</a>
-			    <a href="ejemplos/css/selectoresAvanzados.jsp"> Selectores avanzados</a>
-			    <a href="ejemplos/css/flexbox.jsp"> Flexbox </a>
-			    <a href="ejemplos/css/media-querys.jsp"> @Media </a>
-		    </div>
-		</div>
-		<div class="dropdown">
-		    <button class="dropbtn"> HTML 
-		    <i class="fa fa-caret-down"></i>
-		    </button>
-		    <div class="dropdown-content">
-			    <a href="ejemplos/html/etiquetas-basicas.jsp"> Etiquetas basicas de html</a>
-			    <br>
-			    <a href="ejemplos/html/box-model.jsp"> VisualizaciÃ³n</a>
-			    <br>
-			    <a href="ejemplos/html/posicionamiento.jsp"> Posicionamiento</a>
-			    <br>
-			    <a href="ejemplos/html/formulario.jsp"> Formularios</a>
-			    <br>
-			    <a href="ejemplos/html/login.jsp"> Login </a>
-		    </div>
-		</div>
-		<div class="dropdown">
-		    <button class="dropbtn"> JS 
-		    	<i class="fa fa-caret-down"></i>
-		    </button>
-		    <div class="dropdown-content">
-		    	<a href="ejemplos/js/game.jsp"> Juego de Arkanoid</a>
-		    	<a href="ejemplos/js/datatable.jsp"> Datatable</a>
-		    </div>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn"> JSP
-				<i class="fa fa-caret-down"></i>
-			</button>
-			<div class="dropdown-content">
-				<a href="ejemplos/jsp/login.jsp"> Login </a>
-				<br />
-				<a href="ejemplos/jsp/calculadora.jsp"> Calculadora</a>
-				<br />
-				<a href="ejemplos/jsp/conversor.jsp"> Conversor </a>
-			</div>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn"> Howtos
-				<i class="fa fa-caret-down"></i>
-			</button>
-			<div class="dropdown-content">
-				<a href="ejemplos/howtos/top-menu-responsive.jsp"> Topnav responsive </a>
-				<br />
-			</div>
-		</div>
-		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
-		
-	</nav>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary vw-100">
+    <a class="navbar-brand" href="#"><i class="fas fa-home home"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CSS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="ejemplos/css/animaciones.jsp"> Animacion</a>
+                    <a class="dropdown-item" href="ejemplos/css/especificidad.jsp"> Especificidad</a>
+                    <a class="dropdown-item" href="ejemplos/css/selectoresBasicos.jsp"> Selectores basicos</a>
+                    <a class="dropdown-item" href="ejemplos/css/selectoresAvanzados.jsp"> Selectores avanzados</a>
+                    <a class="dropdown-item" href="ejemplos/css/flexbox.jsp"> Flexbox </a>
+                    <a class="dropdown-item" href="ejemplos/css/media-querys.jsp"> @Media </a>
+                </div>
+                <!-- .dropdown-menu -->
+            </li>
+            <!-- .nav-item .dropdown -->
 
-<main>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    HTML
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ejemplos/html/etiquetas-basicas.jsp"> Etiquetas basicas de html</a>
+                        <a class="dropdown-item" href="ejemplos/html/box-model.jsp"> Visualización</a>
+                        <a class="dropdown-item" href="ejemplos/html/posicionamiento.jsp"> Posicionamiento</a>
+                        <a class="dropdown-item" href="ejemplos/html/formulario.jsp"> Formularios</a>
+                        <a class="dropdown-item" href="ejemplos/html/login.jsp"> Login </a>
+                </div>
+                <!-- .dropdown-menu -->
+            </li>
+            <!-- .nav-item .dropdown -->
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    JS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="ejemplos/js/game.jsp"> Juego de Arkanoid</a>
+                    <a class="dropdown-item" href="ejemplos/js/datatable.jsp"> Datatable</a>
+                </div>
+                <!-- .dropdown-menu -->
+            </li>
+            <!-- .nav-item .dropdown -->
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    JSP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="ejemplos/jsp/login.jsp"> Login </a>
+                    <a class="dropdown-item" href="ejemplos/jsp/calculadora.jsp"> Calculadora</a>
+                    <a class="dropdown-item" href="ejemplos/jsp/conversor.jsp"> Conversor </a>
+                </div>
+                <!-- .dropdown-menu -->
+            </li>
+            <!-- .nav-item .dropdown -->
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Howtos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="ejemplos/howtos/top-menu-responsive.jsp"> Topnav responsive </a>
+                </div>
+                <!-- .dropdown-menu -->
+            </li>
+            <!-- .nav-item .dropdown -->
+        </ul>
+    </div>
+  </nav>

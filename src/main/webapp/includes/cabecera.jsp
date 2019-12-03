@@ -17,6 +17,8 @@
     
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet"> <!-- Fuente de la pagina -->
     
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" /> <!-- Font awesome -->
     <!-- Estilos personales -->
     <link rel="stylesheet" href="css/styles.css?time=<%= System.currentTimeMillis()%>">

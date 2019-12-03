@@ -22,10 +22,6 @@ footer {
 	z-index: 999;
 }
 
-nav {
-	max-width: 1024px;
-	margin: auto;
-}
 
 main {
 	max-width: 1024px;
@@ -67,10 +63,6 @@ main {
   color: black;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
 
 .dropdown .dropbtn {
   font-size: 17px;    

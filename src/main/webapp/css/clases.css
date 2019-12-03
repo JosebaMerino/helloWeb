@@ -1,3 +1,17 @@
+/*
+ Bootstrap overide
+*/
+
+ul.navbar-nav li {
+	list-style-type: none;
+}
+
+li.nav-item {
+	text-decoration: none;
+}
+
+
+
 /* Clases
 *********************************************************************************/
 .parallax {
