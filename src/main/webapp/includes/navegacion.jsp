@@ -51,6 +51,7 @@
 				<br />
 				<a href="ejemplos/jsp/calculadora.jsp"> Calculadora</a>
 				<br />
+				<a href="ejemplos/jsp/conversor.jsp"> Conversor </a>
 			</div>
 		</div>
 		<div class="dropdown">
