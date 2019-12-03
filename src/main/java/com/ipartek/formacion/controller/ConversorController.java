@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/convertir")
 public class ConversorController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private static final float METROS_PIES = 39.37f;
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -39,23 +40,30 @@ public class ConversorController extends HttpServlet {
 		
 		String base = "/ejemplos/jsp/";
 		String vista = "conversor.jsp";
+		try {
 		
-		String strMetros = (String) request.getParameter("metros");
+		String strMetros = request.getParameter("metros");
 		String mensaje = null;
+		
+		boolean valido = false;
 		
 		float metros = 0;
 		try {
 			metros = Float.parseFloat(strMetros);
+			valido = true;
 		} catch (Exception e) {
 			mensaje="Los metros introducidos no son validos";
 		}
 		
-		request.setAttribute("metros", metros);
-		request.setAttribute("resultado", (metros * 39.37f));
+		request.setAttribute("metros", strMetros);
+		request.setAttribute("resultado",(valido)? (metros * METROS_PIES) : null);
 		request.setAttribute("mensaje", mensaje);
-		
+		} catch (Exception e) {
+			request.setAttribute("Mensaje", "Ups, ha ocurrido un error en el servidor");
+		} finally {
+			request.getRequestDispatcher(base + vista).forward(request, response);			
+		}
 		// 3. Ir a JSP
-		request.getRequestDispatcher(base + vista).forward(request, response);
 
 	}
 
