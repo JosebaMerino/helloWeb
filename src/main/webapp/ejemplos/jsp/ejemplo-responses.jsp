@@ -8,8 +8,12 @@
 	
 <main>
 <div class="container">
-<h1> Ejemplo 1</h1>
-<h5> Para entrar correctamente introduce el usuario pepe y la contraseña 123456. Para recibir el codigo de error de la tetera se debe introducir el nombre tetera </h5>
+<h1> Ejemplo responses</h1>
+<div>
+	<p> Para entrar correctamente introduce el usuario pepe y la contraseña 123456. Para recibir el codigo de error de la tetera se debe introducir el nombre tetera </p>
+	<img src="images/http_response.png" alt="" style="width: 100%; height: 100px; object-fit: contain;"/>
+</div>
+
 	<div class="row justify-content-center">
 		<div class="col-6">
 		<div class="card mt-3">

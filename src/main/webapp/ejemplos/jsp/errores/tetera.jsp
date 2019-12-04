@@ -1,11 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<title>Tetera</title>
-</head>
-<body>
-	<h1> Eres una tetera </h1>
-	<p>Eres una tetera</p>
-</body>
-</html>
+<%
+	String titulo = "Tetera";
+%>
+
+<%@include file="/includes/cabecera.jsp" %>
+
+	<%@include file="/includes/navegacion.jsp" %>
+   
+   <main>
+   	<div class="container">
+   		<div class="row justify-content-center">
+   			<div class="col-6">
+   				<div class="card">
+   					<div class="card-body">
+   						<h1 class="card-title"> Tetera</h1>
+   						<p class="card-text"> Eres una tetera</p>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+   </main>
+
+
+<%@include file="/includes/pie.jsp" %>

@@ -29,6 +29,10 @@ table {
 }
 
 
+main {
+	padding-top: 1rem;
+}
+
 
 
 input[type="text"] {
