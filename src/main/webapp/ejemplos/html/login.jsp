@@ -52,7 +52,7 @@
     </style>
     <h1> Formulario basico de login</h1>
     <section>
-        <form action="">
+        <form action=""">
             <label for="nombre"> Nombre </label> <br>
             <input type="text" name="nombre" id="nombre">
             <br>

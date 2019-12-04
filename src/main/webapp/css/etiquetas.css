@@ -1,6 +1,6 @@
 /* Etiquetas y estilos generales
  ****************************************************************/
-
+	
 h1 {
 	color: #09C;
 	font-size: 3em;
@@ -32,16 +32,16 @@ main {
 
 
 
-input[type="text"] {
+form.validate input[type="text"] {
 	padding: 2px 0 2px 5px;
 }
 
-input[type="text"]:valid {
+form.validate input[type="text"]:valid {
 	color: green;
 	border: 1px solid green;
 }
 
-input[type="text"]:invalid {
+form.validate input[type="text"]:invalid {
 	color: red;
 	border: 1px solid red;
 }
@@ -119,8 +119,3 @@ p {
 	
 	margin-bottom: 10px;
 }
-
-a {
-	color: #ebb152;
-}
-
