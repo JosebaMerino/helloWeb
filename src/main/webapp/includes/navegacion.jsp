@@ -57,6 +57,7 @@
 	                    <a class="dropdown-item" href="ejemplos/jsp/login.jsp"> Login </a>
 	                    <a class="dropdown-item" href="ejemplos/jsp/calculadora.jsp"> Calculadora</a>
 	                    <a class="dropdown-item" href="ejemplos/jsp/conversor.jsp"> Conversor </a>
+	                    <a class="dropdown-item" href="ejemplos/jsp/ejemplo1.jsp"> Ejemplo1 </a>
 	                </div>
 	                <!-- .dropdown-menu -->
 	            </li>

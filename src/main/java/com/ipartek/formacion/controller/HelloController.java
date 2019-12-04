@@ -11,9 +11,16 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class HelloController
+ * 
+ * Ejemplo para aprender como un servelet recibe y envia los datos de la forma más básica posible
+ * 
+ * @see HelloController2 para ver lo mismo pero de forma más avanzada.
+ * 
  */
 @WebServlet("/ejemplo1")
 public class HelloController extends HttpServlet {
+	private static final String NOMBRE= "pepe";
+	private static final String PASSWORD = "123456";
 	private static final long serialVersionUID = 1L;
 
 	/**
@@ -38,7 +45,7 @@ public class HelloController extends HttpServlet {
 		 * */
 		
 		
-		boolean valido = "pepe".equals(nombre) && "123456".equals(password);
+		boolean valido = NOMBRE.equals(nombre) && PASSWORD.equals(password);
 		
 		// respuesta
 		response.setContentType("text/html");
