@@ -10,7 +10,7 @@
 }
 
 footer {
-	max-width: 1024px;
+	height: 7vh;
 	margin: auto;
 }
 
@@ -24,7 +24,6 @@ footer {
 
 
 main {
-	max-width: 1024px;
 	margin: auto;
 	margin-bottom: 70px;
 }

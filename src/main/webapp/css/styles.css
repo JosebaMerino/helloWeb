@@ -20,8 +20,11 @@ Orden de los componentes de un css
 
 */
 
+/*
 @import url("reset.css");
 @import url("normalize.css");
+*/
+
 
 @import url("etiquetas.css");
 @import url("animaciones.css");

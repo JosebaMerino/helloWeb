@@ -36,6 +36,16 @@ if(idioma == null) {
             border-radius: 4px;
             box-sizing: border-box;
         }
+        
+        input[type="text"]:invalid, input[type="password"]:invalid {
+       		color: green;
+			border: 1px solid green;
+        }
+        
+        input[type="text"]:invalid, input[type="password"]:invalid {
+       		color: red;
+			border: 1px solid red;
+        }
 
 
 

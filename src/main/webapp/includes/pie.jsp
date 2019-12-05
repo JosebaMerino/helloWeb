@@ -1,19 +1,19 @@
-	</main>
-	<div class="footer-wrapper">
-		<footer>
-		<a href="https://github.com/JosebaMerino/helloWeb" target="_blank" class="no-decoration">
+</div>
+<footer class="bg-primary">
+	<div class="container h-100">
+		<div class="row h-100 align-content-center">
+			<div class="col">
+				<a href="https://github.com/JosebaMerino/helloWeb" target="_blank" class="no-decoration">
 		<i class="fab fa-github"></i>
 		</a>
 		    Autor: Joseba Merino - Ipartek &copy;
-		</footer>
+				
+			</div>
+		</div>
 	</div>
-    <div class="esquina">
-    
-        <span> <a href="<%= (request.getRequestURL()).toString() %>#inicio" class="no-decoration">
-        <i class="fas fa-arrow-up"></i>
-        </a> 
-        </span>
-    </div>
+</footer>
+	</body>
+</html>
 
     <script type="text/javascript" src="js/jquery-3.4.1.slim.js"></script>
     <script type="text/javascript" src="js/popper.js"></script>

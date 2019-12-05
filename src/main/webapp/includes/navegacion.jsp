@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary vw-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
 	    <a class="navbar-brand" href="#"><i class="fas fa-home home"></i></a>
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,6 +57,7 @@
 	                    <a class="dropdown-item" href="ejemplos/jsp/login.jsp"> Login </a>
 	                    <a class="dropdown-item" href="ejemplos/jsp/calculadora.jsp"> Calculadora</a>
 	                    <a class="dropdown-item" href="ejemplos/jsp/conversor.jsp"> Conversor </a>
+	                    <a class="dropdown-item" href="ejemplos/jsp/ejemplo-responses.jsp"> Ejemplo responses </a>
 	                </div>
 	                <!-- .dropdown-menu -->
 	            </li>
@@ -76,3 +77,5 @@
 	    </div>
        </div>
   </nav>
+  
+  <div class="container">
