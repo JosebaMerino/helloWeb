@@ -75,7 +75,7 @@ public class LoginControlador extends HttpServlet {
 			HttpSession session = request.getSession();
 			session.setAttribute("usuarioLogeado", "Administrador");
 			session.setAttribute("idioma", idioma);
-			session.setMaxInactiveInterval(30);
+			session.setMaxInactiveInterval(0);
 
 			request.setAttribute("mensaje", mensajeExito);
 			request.setAttribute("recuerdame", (recuerdame == null ? false : true));

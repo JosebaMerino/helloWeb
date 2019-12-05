@@ -28,12 +28,11 @@
 	<%
 	 String usuarioSesion = (String) session.getAttribute("usuarioLogeado");
 	 String idiomaSesion = (String) session.getAttribute("idioma");
-	%>
-
-	<% if(usuarioSesion == null) { %>
+	 if(usuarioSesion == null) { %>
 		<p> No has iniciado sesion, <a href="ejemplos/jsp/login.jsp"> Iniciar sesion</a> </p>
-	<% } else {%>
+	<% } else { %>
 		<p>Usuario: <%= usuarioSesion %></p>
 		<p>Idioma: <%= idiomaSesion %></p>
+		<a href="logout"> Logout</a>
 	<% } %>
 </section>
