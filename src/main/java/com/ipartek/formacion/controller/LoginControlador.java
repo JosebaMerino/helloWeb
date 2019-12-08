@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class LoginControlador
@@ -51,7 +52,7 @@ public class LoginControlador extends HttpServlet {
 		String mensajeError = "";
 
 		// 2. Logica de negocio
-		
+
 		switch (idioma) {
 		case "es":
 			mensajeExito = "Bienvenido";
@@ -70,6 +71,11 @@ public class LoginControlador extends HttpServlet {
 		}
 
 		if ("admin".equalsIgnoreCase(nombre) && "admin".equalsIgnoreCase(contrasena)) {
+			// Recuperar session del usuario == browser
+			HttpSession session = request.getSession();
+			session.setAttribute("usuarioLogeado", "Administrador");
+			session.setAttribute("idioma", idioma);
+			session.setMaxInactiveInterval(0);
 
 			request.setAttribute("mensaje", mensajeExito);
 			request.setAttribute("recuerdame", (recuerdame == null ? false : true));
