@@ -15,7 +15,7 @@
 </div>
 
 	<div class="row justify-content-center">
-		<div class="col-6">
+		<div class="col-12 col-md-6">
 		<div class="card mt-3">
 			<div class="card-body">
 				<h4 class="card-title h4"> Ejemplo SERVLET</h4>
@@ -60,7 +60,7 @@
 		</div>
 		</div>
 		</div>
-		<div class="col-6">
+		<div class="col-12 col-md-6">
 			<div class="card mt-3">
 				<div class="card-body">
 					<h4 class="card-title h4"> Ejemplo SERVLET + JSP</h4>
